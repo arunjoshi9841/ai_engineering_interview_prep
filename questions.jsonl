@@ -1,0 +1,115 @@
+{"id":"TECH-001","title":"Policy-Aware Tool Registry","bank":"technical","primary_topic":"Secure tool calling","type":"implementation","status":"reviewed"}
+{"id":"TECH-002","title":"Idempotent Tool Executor","bank":"technical","primary_topic":"Idempotency and retries","type":"coding","status":"reviewed"}
+{"id":"TECH-003","title":"Reliable Queue Consumer","bank":"technical","primary_topic":"Async integration","type":"debugging","status":"reviewed"}
+{"id":"TECH-004","title":"Permission-Aware RAG Context","bank":"technical","primary_topic":"RAG and authorization","type":"implementation","status":"reviewed"}
+{"id":"TECH-005","title":"Workflow State Race","bank":"technical","primary_topic":"Agent workflow state","type":"debugging","status":"reviewed"}
+{"id":"TECH-006","title":"TTL Cache","bank":"technical","primary_topic":"Caching and concurrency","type":"implementation","status":"generated"}
+{"id":"TECH-007","title":"Sliding-Window Rate Limiter","bank":"technical","primary_topic":"Rate limiting","type":"implementation","status":"generated"}
+{"id":"TECH-008","title":"Document Ingestion Job Manager","bank":"technical","primary_topic":"Async jobs","type":"implementation","status":"generated"}
+{"id":"TECH-009","title":"Structured Model Output Boundary","bank":"technical","primary_topic":"Structured outputs","type":"coding","status":"reviewed"}
+{"id":"TECH-010","title":"Dependency Circuit Breaker","bank":"technical","primary_topic":"Reliability","type":"implementation","status":"reviewed"}
+{"id":"TECH-011","title":"Bounded Parallel Tool Runner","bank":"technical","primary_topic":"Agent orchestration","type":"coding","status":"reviewed"}
+{"id":"TECH-012","title":"Prompt Version Resolver","bank":"technical","primary_topic":"Prompt management","type":"implementation","status":"reviewed"}
+{"id":"TECH-013","title":"Token Budget Enforcer","bank":"technical","primary_topic":"Cost and latency control","type":"coding","status":"reviewed"}
+{"id":"TECH-014","title":"Streaming Cancellation Leak","bank":"technical","primary_topic":"Streaming APIs","type":"debugging","status":"reviewed"}
+{"id":"TECH-015","title":"Signed Webhook Intake","bank":"technical","primary_topic":"Secure APIs","type":"implementation","status":"reviewed"}
+{"id":"TECH-016","title":"Tool Argument Confusion","bank":"technical","primary_topic":"Tool safety","type":"diagnosis","status":"reviewed"}
+{"id":"TECH-017","title":"Legacy API Adapter","bank":"technical","primary_topic":"Enterprise integration","type":"implementation","status":"reviewed"}
+{"id":"TECH-018","title":"Retrieval Ranking Diagnosis","bank":"technical","primary_topic":"RAG quality","type":"diagnosis","status":"reviewed"}
+{"id":"TECH-019","title":"Citation Integrity Checker","bank":"technical","primary_topic":"Grounded generation","type":"coding","status":"reviewed"}
+{"id":"TECH-020","title":"ReAct Loop Guard","bank":"technical","primary_topic":"Agent control flow","type":"implementation","status":"reviewed"}
+{"id":"TECH-021","title":"Model Router Decision Function","bank":"technical","primary_topic":"Model routing","type":"coding","status":"reviewed"}
+{"id":"TECH-022","title":"Prompt Injection Code Review","bank":"technical","primary_topic":"Prompt injection","type":"review","status":"reviewed"}
+{"id":"TECH-023","title":"Tool Output Injection Defense","bank":"technical","primary_topic":"Tool safety","type":"implementation","status":"reviewed"}
+{"id":"TECH-024","title":"Tenant Filter Regression","bank":"technical","primary_topic":"Multi-tenant authorization","type":"debugging","status":"reviewed"}
+{"id":"TECH-025","title":"Workflow Checkpoint Store","bank":"technical","primary_topic":"Durable state","type":"implementation","status":"reviewed"}
+{"id":"TECH-026","title":"Outbox Relay Worker","bank":"technical","primary_topic":"Event consistency","type":"coding","status":"reviewed"}
+{"id":"TECH-027","title":"Duplicate Approval Callback","bank":"technical","primary_topic":"Human in the loop","type":"debugging","status":"reviewed"}
+{"id":"TECH-028","title":"Document Chunking Review","bank":"technical","primary_topic":"Document ingestion","type":"review","status":"reviewed"}
+{"id":"TECH-029","title":"Reindex Event Coalescer","bank":"technical","primary_topic":"Index freshness","type":"coding","status":"reviewed"}
+{"id":"TECH-030","title":"Embedding Migration Worker","bank":"technical","primary_topic":"Vector search","type":"implementation","status":"reviewed"}
+{"id":"TECH-031","title":"Retrieval Evaluation Harness","bank":"technical","primary_topic":"AI evaluation","type":"implementation","status":"reviewed"}
+{"id":"TECH-032","title":"Agent Trace Correlator","bank":"technical","primary_topic":"Observability","type":"coding","status":"reviewed"}
+{"id":"TECH-033","title":"Retry Storm Diagnosis","bank":"technical","primary_topic":"Distributed reliability","type":"diagnosis","status":"reviewed"}
+{"id":"TECH-034","title":"Partial Result Aggregator","bank":"technical","primary_topic":"Parallel orchestration","type":"implementation","status":"reviewed"}
+{"id":"TECH-035","title":"Agent Plan Validator","bank":"technical","primary_topic":"Planning safety","type":"coding","status":"reviewed"}
+{"id":"TECH-036","title":"Secret Leakage Review","bank":"technical","primary_topic":"Secrets and logging","type":"review","status":"reviewed"}
+{"id":"TECH-037","title":"Hallucination Triage","bank":"technical","primary_topic":"Grounded generation","type":"diagnosis","status":"reviewed"}
+{"id":"TECH-038","title":"Content Filter Integration","bank":"technical","primary_topic":"Responsible AI","type":"implementation","status":"reviewed"}
+{"id":"TECH-039","title":"Agent Contract Tests","bank":"technical","primary_topic":"Testing","type":"implementation","status":"reviewed"}
+{"id":"TECH-040","title":"Multi-Agent Deadlock","bank":"technical","primary_topic":"Multi-agent coordination","type":"debugging","status":"reviewed"}
+{"id":"SYS-001","title":"Multi-Tenant Agent Platform","bank":"system-design","primary_topic":"Enterprise agent platform","type":"system design","status":"reviewed"}
+{"id":"SYS-002","title":"Automated Phishing Triage","bank":"system-design","primary_topic":"Security automation","type":"system design","status":"reviewed"}
+{"id":"SYS-003","title":"Durable Agent Workflow","bank":"system-design","primary_topic":"Workflow reliability","type":"architecture","status":"reviewed"}
+{"id":"SYS-004","title":"Permission-Aware RAG Service","bank":"system-design","primary_topic":"RAG architecture","type":"system design","status":"reviewed"}
+{"id":"SYS-005","title":"Enterprise Tool Gateway","bank":"system-design","primary_topic":"Secure integration","type":"system design","status":"reviewed"}
+{"id":"SYS-006","title":"Multi-Provider Model Router","bank":"system-design","primary_topic":"Model abstraction","type":"architecture","status":"reviewed"}
+{"id":"SYS-007","title":"Multiformat Ingestion Platform","bank":"system-design","primary_topic":"Document processing","type":"system design","status":"reviewed"}
+{"id":"SYS-008","title":"Security Operations Agent Team","bank":"system-design","primary_topic":"Multi-agent orchestration","type":"system design","status":"reviewed"}
+{"id":"SYS-009","title":"Legacy Integration Hub","bank":"system-design","primary_topic":"Enterprise integration","type":"architecture","status":"reviewed"}
+{"id":"SYS-010","title":"Agent Cost Control Plane","bank":"system-design","primary_topic":"Cost management","type":"system design","status":"reviewed"}
+{"id":"SYS-011","title":"End-to-End Agent Audit Trail","bank":"system-design","primary_topic":"Auditability","type":"architecture","status":"reviewed"}
+{"id":"SYS-012","title":"Risk-Based Approval Service","bank":"system-design","primary_topic":"Human in the loop","type":"system design","status":"reviewed"}
+{"id":"SYS-013","title":"Async Agent Job Platform","bank":"system-design","primary_topic":"Queues and workers","type":"system design","status":"reviewed"}
+{"id":"SYS-014","title":"Shared Agent State Service","bank":"system-design","primary_topic":"Agent memory and state","type":"architecture","status":"reviewed"}
+{"id":"SYS-015","title":"Enterprise Event Intake","bank":"system-design","primary_topic":"Event-driven architecture","type":"system design","status":"reviewed"}
+{"id":"SYS-016","title":"AI Evaluation Platform","bank":"system-design","primary_topic":"Evaluation","type":"system design","status":"reviewed"}
+{"id":"SYS-017","title":"Prompt and Policy Registry","bank":"system-design","primary_topic":"Prompt operations","type":"architecture","status":"reviewed"}
+{"id":"SYS-018","title":"Customer-Facing Agent API","bank":"system-design","primary_topic":"Secure scalable APIs","type":"system design","status":"reviewed"}
+{"id":"SYS-019","title":"Conversational Voice Agent","bank":"system-design","primary_topic":"Voice AI","type":"system design","status":"reviewed"}
+{"id":"SYS-020","title":"Agent Observability Platform","bank":"system-design","primary_topic":"Observability","type":"system design","status":"reviewed"}
+{"id":"DSA-001","title":"Two-Sum Target Pair","bank":"dsa","primary_topic":"Arrays / hash maps","type":"coding","status":"reviewed"}
+{"id":"DSA-002","title":"Duplicate Request Detector","bank":"dsa","primary_topic":"Arrays / hash maps","type":"coding","status":"reviewed"}
+{"id":"DSA-003","title":"Event Frequency Counter","bank":"dsa","primary_topic":"Arrays / hash maps","type":"coding","status":"reviewed"}
+{"id":"DSA-004","title":"Product Except Self","bank":"dsa","primary_topic":"Arrays / hash maps","type":"coding","status":"reviewed"}
+{"id":"DSA-005","title":"Longest Consecutive Sequence","bank":"dsa","primary_topic":"Arrays / hash maps","type":"coding","status":"reviewed"}
+{"id":"DSA-006","title":"Sparse Vector Dot Product","bank":"dsa","primary_topic":"Arrays / hash maps","type":"coding","status":"reviewed"}
+{"id":"DSA-007","title":"Valid Anagram","bank":"dsa","primary_topic":"Strings","type":"coding","status":"reviewed"}
+{"id":"DSA-008","title":"First Unique Character","bank":"dsa","primary_topic":"Strings","type":"coding","status":"reviewed"}
+{"id":"DSA-009","title":"Run-Length Codec","bank":"dsa","primary_topic":"Strings","type":"coding","status":"reviewed"}
+{"id":"DSA-010","title":"Group Anagrams","bank":"dsa","primary_topic":"Strings","type":"coding","status":"reviewed"}
+{"id":"DSA-011","title":"Valid Palindrome","bank":"dsa","primary_topic":"Two pointers","type":"coding","status":"reviewed"}
+{"id":"DSA-012","title":"Merge Sorted Arrays","bank":"dsa","primary_topic":"Two pointers","type":"coding","status":"reviewed"}
+{"id":"DSA-013","title":"Container With Most Water","bank":"dsa","primary_topic":"Two pointers","type":"coding","status":"reviewed"}
+{"id":"DSA-014","title":"Three-Sum Triplets","bank":"dsa","primary_topic":"Two pointers","type":"coding","status":"reviewed"}
+{"id":"DSA-015","title":"Longest Unique Substring","bank":"dsa","primary_topic":"Sliding window","type":"coding","status":"reviewed"}
+{"id":"DSA-016","title":"Minimum-Length Target Window","bank":"dsa","primary_topic":"Sliding window","type":"coding","status":"reviewed"}
+{"id":"DSA-017","title":"Peak Events in a Fixed Window","bank":"dsa","primary_topic":"Sliding window","type":"coding","status":"reviewed"}
+{"id":"DSA-018","title":"Minimum Covering Substring","bank":"dsa","primary_topic":"Sliding window","type":"coding","status":"reviewed"}
+{"id":"DSA-019","title":"Valid Delimiter Sequence","bank":"dsa","primary_topic":"Stack / queue / deque","type":"coding","status":"reviewed"}
+{"id":"DSA-020","title":"Min Stack","bank":"dsa","primary_topic":"Stack / queue / deque","type":"coding","status":"reviewed"}
+{"id":"DSA-021","title":"Evaluate Postfix Expression","bank":"dsa","primary_topic":"Stack / queue / deque","type":"coding","status":"reviewed"}
+{"id":"DSA-022","title":"Sliding-Window Maximum","bank":"dsa","primary_topic":"Stack / queue / deque","type":"coding","status":"reviewed"}
+{"id":"DSA-023","title":"Top-K Frequent Values","bank":"dsa","primary_topic":"Heap / priority queue","type":"coding","status":"reviewed"}
+{"id":"DSA-024","title":"K Closest Points","bank":"dsa","primary_topic":"Heap / priority queue","type":"coding","status":"reviewed"}
+{"id":"DSA-025","title":"Merge K Sorted Feeds","bank":"dsa","primary_topic":"Heap / priority queue","type":"coding","status":"reviewed"}
+{"id":"DSA-026","title":"Merge Overlapping Intervals","bank":"dsa","primary_topic":"Intervals","type":"coding","status":"reviewed"}
+{"id":"DSA-027","title":"Insert an Interval","bank":"dsa","primary_topic":"Intervals","type":"coding","status":"reviewed"}
+{"id":"DSA-028","title":"Minimum Meeting Rooms","bank":"dsa","primary_topic":"Intervals","type":"coding","status":"reviewed"}
+{"id":"DSA-029","title":"First and Last Match","bank":"dsa","primary_topic":"Binary search","type":"coding","status":"reviewed"}
+{"id":"DSA-030","title":"Search Rotated Sorted Array","bank":"dsa","primary_topic":"Binary search","type":"coding","status":"reviewed"}
+{"id":"DSA-031","title":"Minimum Processing Capacity","bank":"dsa","primary_topic":"Binary search","type":"coding","status":"reviewed"}
+{"id":"DSA-032","title":"Binary Tree Maximum Depth","bank":"dsa","primary_topic":"Trees / BFS / DFS","type":"coding","status":"reviewed"}
+{"id":"DSA-033","title":"Binary Tree Level Order","bank":"dsa","primary_topic":"Trees / BFS / DFS","type":"coding","status":"reviewed"}
+{"id":"DSA-034","title":"Validate Binary Search Tree","bank":"dsa","primary_topic":"Trees / BFS / DFS","type":"coding","status":"reviewed"}
+{"id":"DSA-035","title":"Lowest Common Ancestor","bank":"dsa","primary_topic":"Trees / BFS / DFS","type":"coding","status":"reviewed"}
+{"id":"DSA-036","title":"Serialize and Restore a Binary Tree","bank":"dsa","primary_topic":"Trees / BFS / DFS","type":"coding","status":"reviewed"}
+{"id":"DSA-037","title":"Count Connected Islands","bank":"dsa","primary_topic":"Graphs / topological sort","type":"coding","status":"reviewed"}
+{"id":"DSA-038","title":"Shortest Path Through a Grid","bank":"dsa","primary_topic":"Graphs / topological sort","type":"coding","status":"reviewed"}
+{"id":"DSA-039","title":"Dependency Order","bank":"dsa","primary_topic":"Graphs / topological sort","type":"coding","status":"reviewed"}
+{"id":"DSA-040","title":"O(1) LRU Cache","bank":"dsa","primary_topic":"Complexity / implementation fundamentals","type":"coding","status":"reviewed"}
+{"id":"BEH-001","title":"Cross-Functional Production Launch","bank":"behavioral","primary_topic":"Collaboration","type":"behavioral","status":"generated"}
+{"id":"BEH-002","title":"Explain an Agent Tradeoff","bank":"behavioral","primary_topic":"Communication","type":"behavioral","status":"generated"}
+{"id":"BEH-003","title":"Unexpected AI Behavior","bank":"behavioral","primary_topic":"Problem solving","type":"behavioral","status":"generated"}
+{"id":"BEH-004","title":"Raise the Team's AI Standard","bank":"behavioral","primary_topic":"Leadership and mentorship","type":"behavioral","status":"generated"}
+{"id":"BEH-005","title":"Own a Production Failure","bank":"behavioral","primary_topic":"Dealing with failure","type":"behavioral","status":"generated"}
+{"id":"BEH-006","title":"Draw an Autonomy Boundary","bank":"behavioral","primary_topic":"Responsible AI","type":"behavioral","status":"generated"}
+{"id":"BEH-007","title":"Push for the Hard Right Choice","bank":"behavioral","primary_topic":"Bold","type":"behavioral","status":"reviewed"}
+{"id":"BEH-008","title":"Quality Under Deadline","bank":"behavioral","primary_topic":"Responsible and Excellent","type":"behavioral","status":"reviewed"}
+{"id":"BEH-009","title":"Sudden Requirement Change","bank":"behavioral","primary_topic":"Adaptable","type":"behavioral","status":"reviewed"}
+{"id":"BEH-010","title":"Learn an Unfamiliar AI Technology","bank":"behavioral","primary_topic":"Visionary","type":"behavioral","status":"reviewed"}
+{"id":"BEH-011","title":"Resolve a Technical Disagreement","bank":"behavioral","primary_topic":"Respectful collaboration","type":"behavioral","status":"reviewed"}
+{"id":"BEH-012","title":"Translate Customer Ambiguity","bank":"behavioral","primary_topic":"Customer leadership","type":"behavioral","status":"reviewed"}
+{"id":"BEH-013","title":"Say No to an AI Feature","bank":"behavioral","primary_topic":"Product judgment","type":"behavioral","status":"reviewed"}
+{"id":"BEH-014","title":"Discover a Security Risk","bank":"behavioral","primary_topic":"Security ownership","type":"behavioral","status":"reviewed"}
+{"id":"BEH-015","title":"Recover a Slipping Project","bank":"behavioral","primary_topic":"Leadership","type":"behavioral","status":"reviewed"}

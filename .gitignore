@@ -1,0 +1,29 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Generated Files (macOS)
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.swp
+
+# Environment Variables / Secrets
+.env
+
+# Testing & Coverage (for when you add pytest)
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml

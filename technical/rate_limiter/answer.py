@@ -1,0 +1,6 @@
+class RateLimiter:
+    def __init__(self, max_requests: int = 3, window_seconds: int = 60) -> None:
+        ...
+
+    def allow_request(self) -> bool:
+        ...
