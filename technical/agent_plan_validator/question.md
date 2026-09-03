@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-A model proposes a small directed plan of tool steps. Implement the deterministic TypeScript validator that rejects malformed, cyclic, unauthorized, or over-budget plans before any step can run.
+A model proposes a small directed plan of tool steps. Implement a deterministic validator in a language of your choice that rejects malformed, cyclic, unauthorized, or over-budget plans before any step can run.
 
 Do not execute or repair the plan.
 

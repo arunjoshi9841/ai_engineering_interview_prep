@@ -4,7 +4,6 @@
 
 Given the root of a binary tree, return its maximum depth: the number of nodes on the longest path from the root to a leaf.
 
-Implement the function in TypeScript.
 
 ## 2. Requirements
 

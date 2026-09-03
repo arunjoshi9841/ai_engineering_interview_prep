@@ -4,7 +4,7 @@
 
 Given 2D integer points, return the `k` points closest to the origin. Compare squared Euclidean distance; ties use smaller `x`, then smaller `y`.
 
-Implement the function in TypeScript with deterministic output.
+Implement the function in a language of your choice with deterministic output.
 
 ## 2. Requirements
 
@@ -12,7 +12,7 @@ Implement the function in TypeScript with deterministic output.
 - Duplicate points remain separate occurrences.
 - Return points ordered from closest to farthest using the tie rule.
 - Do not use square roots or modify the input.
-- Assume squared distances remain safe integers.
+- Assume squared distances fit within the language's exact-integer range.
 - Aim for `O(n log k)` time and `O(k)` selection space.
 
 ## 3. Example Input / Output

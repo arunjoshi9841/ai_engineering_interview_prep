@@ -4,7 +4,7 @@
 
 Given an array of integers and `k`, return the `k` most frequent distinct values. Higher frequency comes first; ties use the smaller numeric value first.
 
-Implement the function in TypeScript without sorting all input occurrences.
+Implement the function in a language of your choice without sorting all input occurrences.
 
 ## 2. Requirements
 

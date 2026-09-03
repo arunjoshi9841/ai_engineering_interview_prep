@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-A service writes business data and an outbox row in one database transaction. Implement the TypeScript relay worker that claims unpublished rows, publishes them to a broker, and records progress without pretending delivery is exactly once.
+A service writes business data and an outbox row in one database transaction. Implement the relay worker in a language of your choice that claims unpublished rows, publishes them to a broker, and records progress without pretending delivery is exactly once.
 
 Do not implement the database transaction that creates rows or the broker.
 

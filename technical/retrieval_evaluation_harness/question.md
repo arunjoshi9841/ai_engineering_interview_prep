@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Implement a small TypeScript harness that evaluates a retriever against judged queries using Recall@K and reciprocal rank. It should make invalid datasets and duplicate result IDs explicit.
+Implement a small evaluation harness in a language of your choice that evaluates a retriever against judged queries using Recall@K and reciprocal rank. It should make invalid datasets and duplicate result IDs explicit.
 
 Do not evaluate answer generation or call a model grader.
 

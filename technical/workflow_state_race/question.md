@@ -4,22 +4,17 @@
 
 An agent workflow has ordered steps such as `retrieve`, `draft`, and `submit_for_approval`. After queue redeliveries and a worker autoscaling event, operators see some steps execute twice and other workflows appear to skip a recorded transition. Review the code, diagnose the concurrency problem, and propose a safe first correction.
 
-```ts
-interface WorkflowState {
-  id: string;
-  revision: number;
-  completedSteps: string[];
-  status: "running" | "completed";
-}
+```text
+WorkflowState contains: id, revision, completedSteps, and status.
 
-async function advance(workflowId: string, step: string) {
-  const state = await store.get(workflowId);
-  if (state.completedSteps.includes(step)) return;
+function advance(workflowId, step) {
+  state = store.get(workflowId);
+  if step is already in state.completedSteps: return;
 
-  await runStep(workflowId, step);
-  state.completedSteps.push(step);
-  state.status = state.completedSteps.length === allSteps.length ? "completed" : "running";
-  await store.save(state);
+  runStep(workflowId, step);
+  add step to state.completedSteps;
+  state.status = "completed" if all steps are complete, otherwise "running";
+  store.save(state);
 }
 ```
 

@@ -4,7 +4,7 @@
 
 Given a nondecreasing array of integers and a target, return the first and last indices where the target occurs. Return `[-1, -1]` when absent.
 
-Implement the function in TypeScript in logarithmic time.
+Implement the function in a language of your choice in logarithmic time.
 
 ## 2. Requirements
 

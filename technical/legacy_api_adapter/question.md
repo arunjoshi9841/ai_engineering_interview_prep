@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent workflow needs to read account status from a legacy customer API. Implement a TypeScript adapter that converts several inconsistent legacy responses into one explicit application contract.
+An agent workflow needs to read account status from a legacy customer API. Implement an adapter in a language of your choice that converts several inconsistent legacy responses into one explicit application contract.
 
 Do not add retries or caching to the initial version. Focus on isolating legacy behavior so the rest of the application does not depend on it.
 

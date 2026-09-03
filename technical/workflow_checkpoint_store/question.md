@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Implement an in-memory TypeScript checkpoint store for durable-style agent workflow state. It must enforce valid transitions, optimistic concurrency, and idempotent replay of the same logical transition.
+Implement an in-memory checkpoint store in a language of your choice for durable-style agent workflow state. It must enforce valid transitions, optimistic concurrency, and idempotent replay of the same logical transition.
 
 The initial implementation is one process; discuss database durability afterward.
 

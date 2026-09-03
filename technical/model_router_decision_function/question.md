@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-A model-routing control plane has already loaded trusted candidate metadata. Implement the deterministic TypeScript function that filters ineligible models and selects one according to an ordered preference policy.
+A model-routing control plane has already loaded trusted candidate metadata. Implement a deterministic function in a language of your choice that filters ineligible models and selects one according to an ordered preference policy.
 
 Do not call providers, measure health, or implement fallback execution. Focus on one reproducible routing decision.
 

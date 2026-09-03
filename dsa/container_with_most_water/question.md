@@ -4,7 +4,7 @@
 
 An array of non-negative heights represents vertical lines at unit-spaced positions. Choose two lines that hold the greatest rectangular area between them and return that area.
 
-Implement the function in TypeScript in linear time.
+Implement the function in a language of your choice in linear time.
 
 ## 2. Requirements
 
@@ -12,7 +12,7 @@ Implement the function in TypeScript in linear time.
 - Heights are finite non-negative integers.
 - Fewer than two heights returns `0`.
 - Do not modify the input.
-- Assume the result remains within JavaScript's safe integer range.
+- Assume the result fits within the numeric range of the language you choose.
 - Aim for linear time and constant auxiliary space.
 
 ## 3. Example Input / Output

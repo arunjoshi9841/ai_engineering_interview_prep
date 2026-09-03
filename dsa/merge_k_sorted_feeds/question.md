@@ -4,7 +4,7 @@
 
 Given `k` arrays sorted by ascending timestamp, merge them into one ordered event list. For equal timestamps, events from the smaller feed index come first; within a feed, preserve input order.
 
-Implement the function in TypeScript without repeatedly scanning every feed.
+Implement the function in a language of your choice without repeatedly scanning every feed.
 
 ## 2. Requirements
 

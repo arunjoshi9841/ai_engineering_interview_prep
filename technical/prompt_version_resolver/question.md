@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-A platform stores prompt versions outside application code and rolls them out gradually. Implement a deterministic TypeScript resolver that chooses the prompt version for a workflow request and returns the metadata needed to reproduce that choice later.
+A platform stores prompt versions outside application code and rolls them out gradually. Implement a deterministic resolver in a language of your choice that chooses the prompt version for a workflow request and returns the metadata needed to reproduce that choice later.
 
 Do not build prompt storage or deployment APIs. Focus on selection from trusted configuration already loaded into memory.
 

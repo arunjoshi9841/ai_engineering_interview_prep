@@ -30,7 +30,7 @@ No eligible chunks: []
 ## 4. What the Interviewer Is Evaluating
 
 - RAG boundary design and authorization ordering
-- TypeScript interfaces that keep trusted policy context separate from model input
+- Data structures that keep trusted policy context separate from model input
 - Safe empty-result behavior and citation provenance
 - Awareness of multi-tenant data exposure risks
 

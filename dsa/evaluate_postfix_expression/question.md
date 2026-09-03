@@ -4,7 +4,7 @@
 
 Evaluate an arithmetic expression supplied as postfix tokens. Operands are integers; operators are `+`, `-`, `*`, and `/`.
 
-Implement the function in TypeScript and reject malformed expressions.
+Implement the function in a language of your choice and reject malformed expressions.
 
 ## 2. Requirements
 
@@ -13,7 +13,7 @@ Implement the function in TypeScript and reject malformed expressions.
 - Division truncates toward zero and division by zero is invalid.
 - Exactly one value must remain after all tokens.
 - Empty input, unknown tokens, missing operands, and extra operands are invalid.
-- Assume valid intermediate results remain safe integers.
+- Assume valid intermediate results fit within the numeric range of the language you choose.
 - Use linear time and stack space proportional to expression depth.
 
 ## 3. Example Input / Output

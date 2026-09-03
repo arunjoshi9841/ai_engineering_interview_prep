@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An HTTP endpoint streams model output to a client. Production metrics show that model requests continue consuming tokens after users close the page, and memory grows during frequent reconnects. Diagnose the provided TypeScript code and revise it so cancellation and cleanup are correct.
+An HTTP endpoint streams model output to a client. Production metrics show that model requests continue consuming tokens after users close the page, and memory grows during frequent reconnects. Diagnose the provided code and revise it so cancellation and cleanup are correct.
 
 Focus on one server process and one streaming request. Do not redesign the HTTP framework or model SDK.
 
@@ -18,7 +18,7 @@ Focus on one server process and one streaming request. Do not redesign the HTTP 
 
 ## 3. Provided Code
 
-```ts
+```text
 interface ModelClient {
   stream(prompt: string, options: { signal: AbortSignal }): AsyncIterable<string>;
 }
@@ -77,7 +77,7 @@ required behavior: classify as upstream failure, clean up, and return a safe ser
 
 **Interview answer:**
 
-> An abort signal communicates that work should stop, but each downstream layer must observe it and release its own resources. It cannot forcibly interrupt arbitrary JavaScript or an external provider that ignores cancellation.
+> A cancellation signal communicates that work should stop, but each downstream layer must observe it and release its own resources. It cannot forcibly interrupt arbitrary code or an external provider that ignores cancellation.
 
 ### Why should cleanup be idempotent?
 

@@ -4,7 +4,7 @@
 
 Given a sequence of event names, return the most frequent event. When several events have the same highest count, return the one that appeared first in the input.
 
-Implement the function in TypeScript and preserve the stated tie behavior without sorting the input.
+Implement the function in a language of your choice and preserve the stated tie behavior without sorting the input.
 
 ## 2. Requirements
 

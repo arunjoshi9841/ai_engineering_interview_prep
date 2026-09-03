@@ -4,7 +4,7 @@
 
 An array of distinct integers was sorted increasingly and then rotated at an unknown pivot. Return the index of a target value, or `-1` if absent.
 
-Implement the function in TypeScript in logarithmic time.
+Implement the function in a language of your choice in logarithmic time.
 
 ## 2. Requirements
 

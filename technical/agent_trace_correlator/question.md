@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Agent telemetry arrives out of order from model, retrieval, tool, approval, and workflow services. Implement a TypeScript function that groups events into workflow traces and reports broken correlation relationships.
+Agent telemetry arrives out of order from model, retrieval, tool, approval, and workflow services. Implement a function in a language of your choice that groups events into workflow traces and reports broken correlation relationships.
 
 Do not build a tracing backend or calculate latency from unsynchronized clocks.
 

@@ -4,7 +4,7 @@
 
 An enterprise agent can propose calls to a small set of registered tools. Implement the registry boundary that decides whether a proposed call may run. The model is not an authority: the registry must use the caller's authenticated policy context and the tool's declared policy.
 
-Keep the first version in memory and focus on a clear TypeScript API rather than an HTTP server or model integration.
+Keep the first version in memory and focus on a clear API in a language of your choice rather than an HTTP server or model integration.
 
 ## 2. Requirements
 
@@ -19,7 +19,7 @@ Keep the first version in memory and focus on a clear TypeScript API rather than
 
 With a registered `lookup_invoice` tool requiring `invoice:read`:
 
-```ts
+```text
 await registry.dispatch(
   { tenantId: "acme", permissions: new Set(["invoice:read"]), requestId: "r-17" },
   { toolName: "lookup_invoice", args: { invoiceId: "inv-42" } },
@@ -35,7 +35,7 @@ await registry.dispatch(
 
 ## 4. What the Interviewer Is Evaluating
 
-- TypeScript API and runtime-validation design
+- API and runtime-validation design
 - Separation of model intent, authorization, and execution
 - Safe error handling and auditability
 - Clear boundaries for privileged enterprise integrations
@@ -48,7 +48,7 @@ await registry.dispatch(
 
 > Model output is untrusted intent, not a security decision. The application needs deterministic policy checks against an authenticated identity before it grants access or performs a side effect.
 
-### Why validate tool arguments at runtime when TypeScript types exist?
+### Why validate tool arguments at runtime when static types exist?
 
 **Interview answer:**
 

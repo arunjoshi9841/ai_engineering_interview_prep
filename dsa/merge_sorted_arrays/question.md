@@ -4,7 +4,7 @@
 
 Two arrays are sorted in nondecreasing order. The first has trailing capacity for every value in the second. Merge the second array into the first in place.
 
-Implement the function in TypeScript in linear time without sorting the combined result or allocating another array proportional to the inputs.
+Implement the function in a language of your choice in linear time without sorting the combined result or allocating another array proportional to the inputs.
 
 ## 2. Requirements
 

@@ -38,6 +38,11 @@
 {"id":"TECH-038","title":"Content Filter Integration","bank":"technical","primary_topic":"Responsible AI","type":"implementation","status":"reviewed"}
 {"id":"TECH-039","title":"Agent Contract Tests","bank":"technical","primary_topic":"Testing","type":"implementation","status":"reviewed"}
 {"id":"TECH-040","title":"Multi-Agent Deadlock","bank":"technical","primary_topic":"Multi-agent coordination","type":"debugging","status":"reviewed"}
+{"id":"TECH-041","title":"Async Start and Scheduling","bank":"technical","primary_topic":"Async fundamentals","type":"concept and coding","status":"reviewed"}
+{"id":"TECH-042","title":"Safe Async API Fetch","bank":"technical","primary_topic":"API clients and error handling","type":"concept and coding","status":"reviewed"}
+{"id":"TECH-043","title":"Timeout and Safe Retry for an External Call","bank":"technical","primary_topic":"Timeouts, retries, and cancellation","type":"concept and coding","status":"reviewed"}
+{"id":"TECH-044","title":"Concurrent Document Batch with Partial Failures","bank":"technical","primary_topic":"Bounded async concurrency","type":"concept and coding","status":"reviewed"}
+{"id":"TECH-045","title":"Async State and In-Flight Request Deduplication","bank":"technical","primary_topic":"Async correctness","type":"concept and coding","status":"reviewed"}
 {"id":"SYS-001","title":"Multi-Tenant Agent Platform","bank":"system-design","primary_topic":"Enterprise agent platform","type":"system design","status":"reviewed"}
 {"id":"SYS-002","title":"Automated Phishing Triage","bank":"system-design","primary_topic":"Security automation","type":"system design","status":"reviewed"}
 {"id":"SYS-003","title":"Durable Agent Workflow","bank":"system-design","primary_topic":"Workflow reliability","type":"architecture","status":"reviewed"}

@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent has already produced an approved list of independent read-only tool calls. Implement a TypeScript runner that executes them with bounded concurrency, supports cancellation, and returns results in the original input order.
+An agent has already produced an approved list of independent read-only tool calls. Implement a runner in a language of your choice that executes them with bounded concurrency, supports cancellation, and returns results in the original input order.
 
 Do not implement planning, authorization, or retries. Assume each request was authorized before it reached this runner.
 
@@ -42,8 +42,8 @@ If cancellation occurs while a and b are running, c is returned as cancelled and
 
 > A stable result contract makes callers simpler and prevents completion timing from changing how results map to requests. I would preserve IDs as well because ordering alone is not enough for auditing.
 
-### What does cancellation guarantee in JavaScript?
+### What does cancellation guarantee?
 
 **Interview answer:**
 
-> An abort signal communicates intent; it cannot forcibly stop arbitrary work. The runner can stop launching tasks, and handlers must observe the signal and clean up their own resources.
+> A cancellation signal communicates intent; it cannot forcibly stop arbitrary work. The runner can stop launching tasks, and handlers must observe the signal and clean up their own resources.

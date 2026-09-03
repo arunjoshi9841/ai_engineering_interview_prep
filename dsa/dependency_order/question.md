@@ -4,7 +4,7 @@
 
 There are `taskCount` tasks numbered from `0` through `taskCount - 1`. Given prerequisite relationships, return any ordering in which every prerequisite appears before its dependent task. Return an empty array if no such ordering exists.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

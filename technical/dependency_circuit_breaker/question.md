@@ -4,7 +4,7 @@
 
 An AI service calls a model provider that sometimes fails or becomes slow. Implement a small in-memory circuit breaker that stops sending requests to an unhealthy dependency and later probes whether it has recovered.
 
-Keep the live-coding version local to one TypeScript process. Do not implement retries, provider routing, or persistence.
+Keep the live-coding version local to one process. Do not implement retries, provider routing, or persistence.
 
 ## 2. Requirements
 

@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Review the TypeScript agent endpoint below after a credential was found in traces. Identify every material leakage path, prioritize containment, and propose targeted code, configuration, and test changes.
+Review the agent endpoint below after a credential was found in traces. Identify every material leakage path, prioritize containment, and propose targeted code, configuration, and test changes.
 
 Do not rewrite the application or give generic compliance advice.
 
@@ -20,7 +20,7 @@ Your review should cover:
 
 ## 3. Provided Code
 
-```ts
+```text
 export async function run(req: Request) {
   const context = {
     user: req.user,

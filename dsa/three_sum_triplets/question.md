@@ -4,7 +4,7 @@
 
 Given an array of integers, return every unique triplet of values whose sum is zero.
 
-Implement the function in TypeScript with deterministic output and avoid duplicate triplets.
+Implement the function in a language of your choice with deterministic output and avoid duplicate triplets.
 
 ## 2. Requirements
 

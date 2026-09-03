@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-After a retrieval refactor, one tenant occasionally receives titles from another tenant's documents. Review the TypeScript code and traces, identify the authorization regression, and propose a fail-closed correction and regression tests.
+After a retrieval refactor, one tenant occasionally receives titles from another tenant's documents. Review the provided code and traces, identify the authorization regression, and propose a fail-closed correction and regression tests.
 
 Do not redesign the search engine. Focus on how trusted scope reaches retrieval and fallback paths.
 
@@ -19,7 +19,7 @@ Your diagnosis should:
 
 ## 3. Provided Code
 
-```ts
+```text
 interface SearchRequest {
   query: string;
   filters?: Record<string, unknown>; // model-proposed refinements

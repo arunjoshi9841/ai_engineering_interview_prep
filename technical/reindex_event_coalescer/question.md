@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-A content source emits rapid, duplicate, and out-of-order document-change events. Implement a TypeScript function that reduces one polled batch to the minimum safe set of reindex operations.
+A content source emits rapid, duplicate, and out-of-order document-change events. Implement a function in a language of your choice that reduces one polled batch to the minimum safe set of reindex operations.
 
 Do not call the indexer or persist debounce state. Focus on deterministic batch coalescing.
 

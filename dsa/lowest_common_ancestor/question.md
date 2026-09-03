@@ -4,7 +4,7 @@
 
 Given the root of a binary tree and references to two distinct nodes in that tree, return their lowest common ancestor: the deepest node whose subtree contains both targets.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

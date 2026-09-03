@@ -4,7 +4,7 @@
 
 Implement a stack of numbers that supports `push`, `pop`, `top`, and retrieving the current minimum, all in constant time.
 
-Use TypeScript and define empty-stack behavior explicitly.
+Use a language of your choice and define empty-stack behavior explicitly.
 
 ## 2. Requirements
 

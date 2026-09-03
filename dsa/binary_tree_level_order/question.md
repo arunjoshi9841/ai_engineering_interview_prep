@@ -4,7 +4,6 @@
 
 Given the root of a binary tree, return its values level by level from top to bottom and left to right within each level.
 
-Implement the function in TypeScript.
 
 ## 2. Requirements
 

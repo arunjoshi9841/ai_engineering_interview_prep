@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An enterprise assistant returns a structured draft whose factual claims cite retrieved evidence. Implement a TypeScript checker that rejects missing, fabricated, or structurally invalid citations before the draft can be rendered.
+An enterprise assistant returns a structured draft whose factual claims cite retrieved evidence. Implement a checker in a language of your choice that rejects missing, fabricated, or structurally invalid citations before the draft can be rendered.
 
 Do not decide semantic truth with another model. Focus on deterministic provenance and exact supporting-quote checks.
 

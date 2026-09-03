@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Implement the TypeScript orchestration boundary that applies an external content-safety classifier before and after model generation. It must fail safely, preserve typed policy outcomes, and support review without exposing unsafe content.
+Implement the orchestration boundary in a language of your choice that applies an external content-safety classifier before and after model generation. It must fail safely, preserve explicit policy outcomes, and support review without exposing unsafe content.
 
 Do not implement the classifier or model.
 

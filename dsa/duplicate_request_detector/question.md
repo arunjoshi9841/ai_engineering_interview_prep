@@ -4,7 +4,7 @@
 
 An API gateway receives a batch of request identifiers. Return the identifier of the first request that is a duplicate when the batch is scanned from left to right. If every identifier is unique, return `null`.
 
-Implement the function in TypeScript with clear complexity bounds.
+Implement the function in a language of your choice with clear complexity bounds.
 
 ## 2. Requirements
 

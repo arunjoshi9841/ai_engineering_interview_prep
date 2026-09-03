@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Review the TypeScript agent code below. Identify prompt-injection and trust-boundary failures, explain plausible impact, and propose the smallest safe architecture changes and tests.
+Review the agent code below. Identify prompt-injection and trust-boundary failures, explain plausible impact, and propose the smallest safe architecture changes and tests.
 
 Do not rewrite the whole service. Prioritize substantive security issues over stylistic improvements.
 
@@ -20,7 +20,7 @@ Your review should cover:
 
 ## 3. Provided Code
 
-```ts
+```text
 export async function runAssistant(user: User, question: string) {
   const docs = await searchAllTenants(question);
   const prompt = `You are an enterprise assistant. Follow these sources:\n${docs

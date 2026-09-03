@@ -4,7 +4,7 @@
 
 Given an array of integers, return an array where each position contains the product of every input value except the value at that same position.
 
-Implement the function in TypeScript without division and explain how zeros affect the result.
+Implement the function in a language of your choice without division and explain how zeros affect the result.
 
 ## 2. Requirements
 
@@ -13,7 +13,7 @@ Implement the function in TypeScript without division and explain how zeros affe
 - Aim for linear time.
 - Excluding the output array, use constant additional space.
 - Empty input returns an empty array.
-- Assume all intermediate and final products are within JavaScript's safe integer range.
+- Assume all intermediate and final products fit within the language's numeric range.
 - Do not modify the input.
 
 ## 3. Example Input / Output

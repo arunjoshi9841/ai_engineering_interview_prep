@@ -4,11 +4,11 @@
 
 Given sorted event timestamps and a positive window duration, return the greatest number of events contained in any half-open interval `[start, start + windowMs)`.
 
-Implement the function in TypeScript in linear time.
+Implement the function in a language of your choice in linear time.
 
 ## 2. Requirements
 
-- Timestamps are non-negative safe integers sorted nondecreasingly; duplicates are allowed.
+- Timestamps are non-negative integers within the language's exact-integer range, sorted nondecreasingly; duplicates are allowed.
 - An event exactly at `start + windowMs` is excluded.
 - The interval may start at any timestamp; an optimum can be represented starting at its earliest included event.
 - Empty input returns `0`.

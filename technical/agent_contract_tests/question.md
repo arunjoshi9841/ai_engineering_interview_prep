@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent can call a customer-data tool through an application-owned adapter. Implement a focused TypeScript contract test suite that every implementation of the adapter must pass, including a real HTTP implementation and an in-memory test implementation.
+An agent can call a customer-data tool through an application-owned adapter. Implement a focused contract test suite in a language of your choice that every implementation of the adapter must pass, including a real HTTP implementation and an in-memory test implementation.
 
 Test observable behavior at the boundary. Do not inspect private fields, reproduce the adapter implementation inside the tests, or call a live third-party service.
 

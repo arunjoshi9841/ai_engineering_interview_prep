@@ -6,7 +6,7 @@ A practical interview-preparation bank for AI engineering and applied-AI roles. 
 
 | Area | Contents |
 | --- | --- |
-| `technical/` | 40 AI-engineering exercises covering agent workflows, RAG, tool safety, reliability, evaluation, observability, and security. |
+| `technical/` | 45 AI-engineering exercises covering async/API fluency, agent workflows, RAG, tool safety, reliability, evaluation, observability, and security. |
 | `system_design/` | 20 system-design prompts for enterprise AI platforms and services. |
 | `dsa/` | 40 programming and data-structures questions. |
 | `behavioral/` | Behavioral prompts with targeted follow-up questions. |
@@ -57,4 +57,3 @@ The question bank emphasizes the parts of AI engineering that distinguish a prod
 ## Contributing
 
 Keep additions focused and practical. New exercises should state the interview prompt, requirements, clarifying questions, follow-ups, production considerations, and an evaluation rubric. Add a catalog entry to `questions.jsonl` when applicable.
-

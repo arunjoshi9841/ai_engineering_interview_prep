@@ -4,7 +4,7 @@
 
 Two very high-dimensional vectors contain mostly zeros. Each vector is supplied as its nonzero entries sorted by index. Return their dot product without expanding either vector into a dense array.
 
-Implement the function in TypeScript and explain the complexity in terms of the nonzero entries.
+Implement the function in a language of your choice and explain the complexity in terms of the nonzero entries.
 
 ## 2. Requirements
 
@@ -15,7 +15,7 @@ Implement the function in TypeScript and explain the complexity in terms of the 
 - Empty vectors are valid.
 - Do not mutate the inputs or allocate a dense vector.
 - Aim for time linear in the total number of supplied entries and constant auxiliary space.
-- Assume products and the final sum remain finite JavaScript numbers.
+- Assume products and the final sum remain finite in the numeric type of the language you choose.
 
 ## 3. Example Input / Output
 

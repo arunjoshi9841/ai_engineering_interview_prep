@@ -4,7 +4,7 @@
 
 Given two strings containing lowercase English letters, determine whether one is an anagram of the other. An anagram must contain exactly the same letters with the same frequencies in a different or identical order.
 
-Implement the function in TypeScript without sorting either string.
+Implement the function in a language of your choice without sorting either string.
 
 ## 2. Requirements
 

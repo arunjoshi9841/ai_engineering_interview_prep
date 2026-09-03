@@ -4,11 +4,11 @@
 
 Given an array of positive integers and a positive target, return the minimum length of a contiguous subarray whose sum is at least the target. Return `0` if no such subarray exists.
 
-Implement the function in TypeScript in linear time.
+Implement the function in a language of your choice in linear time.
 
 ## 2. Requirements
 
-- Every value and the target are positive safe integers.
+- Every value and the target are positive integers within the language's exact-integer range.
 - The subarray must be contiguous and non-empty.
 - Return only its length.
 - Empty input returns `0`.

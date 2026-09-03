@@ -4,7 +4,7 @@
 
 Given an array of numbers and a window size, return the maximum value in every contiguous window.
 
-Implement the function in TypeScript in linear time.
+Implement the function in a language of your choice in linear time.
 
 ## 2. Requirements
 

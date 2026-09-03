@@ -4,7 +4,7 @@
 
 Given disjoint closed intervals sorted by start, insert one new interval and merge any overlaps. Return the resulting sorted disjoint intervals.
 
-Implement the function in TypeScript in linear time.
+Implement the function in a language of your choice in linear time.
 
 ## 2. Requirements
 

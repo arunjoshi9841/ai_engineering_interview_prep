@@ -4,7 +4,7 @@
 
 Implement a fixed-capacity least-recently-used cache. Both lookup and insertion must run in constant time. When an insertion exceeds capacity, evict the entry that has gone unused for the longest time.
 
-Implement the class in TypeScript.
+Implement the class in a language of your choice.
 
 ## 2. Requirements
 

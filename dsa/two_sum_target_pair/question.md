@@ -4,7 +4,7 @@
 
 Given an array of integers and a target, return the indices of two different elements whose values add to the target.
 
-Implement the function in TypeScript and explain the time and space complexity of your approach.
+Implement the function in a language of your choice and explain the time and space complexity of your approach.
 
 ## 2. Requirements
 
@@ -28,7 +28,7 @@ values = [-3, 7, 1], target = 4     -> [0, 1]
 - Requirement and edge-case discipline
 - Appropriate data-structure selection
 - One-pass reasoning and complexity analysis
-- Clear TypeScript implementation
+- Clear implementation in the language chosen by the candidate
 
 ## 5. Concept Questions and Interview Answers
 

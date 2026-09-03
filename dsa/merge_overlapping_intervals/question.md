@@ -4,7 +4,7 @@
 
 Given closed integer intervals, merge every overlapping interval and return the disjoint result ordered by start.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

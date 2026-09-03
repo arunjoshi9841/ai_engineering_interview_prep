@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-Several specialist agents investigate one case in parallel. Implement the TypeScript aggregator that converts their typed outcomes into a deterministic summary without hiding failures, timeouts, or conflicting conclusions.
+Several specialist agents investigate one case in parallel. Implement an aggregator in a language of your choice that converts their outcomes into a deterministic summary without hiding failures, timeouts, or conflicting conclusions.
 
 Do not run the agents or ask another model to synthesize prose.
 

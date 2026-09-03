@@ -4,7 +4,7 @@
 
 Given a rectangular grid where `0` is open and `1` is blocked, return the minimum number of horizontal or vertical moves from a start cell to a destination cell. Return `-1` if the destination is unreachable.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

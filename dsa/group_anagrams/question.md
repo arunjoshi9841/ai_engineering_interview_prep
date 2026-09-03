@@ -4,7 +4,7 @@
 
 Given a list of lowercase English words, group together words that are anagrams. Preserve each word's original order within its group, and order the groups by the position of their first word in the input.
 
-Implement the function in TypeScript and explain the complexity of the grouping key you choose.
+Implement the function in a language of your choice and explain the complexity of the grouping key you choose.
 
 ## 2. Requirements
 

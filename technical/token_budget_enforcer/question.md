@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent workflow can make several model calls, but each run has a fixed token budget. Implement a TypeScript budget enforcer that reserves estimated tokens before a call and reconciles the reservation when actual usage is known.
+An agent workflow can make several model calls, but each run has a fixed token budget. Implement a budget enforcer in a language of your choice that reserves estimated tokens before a call and reconciles the reservation when actual usage is known.
 
 Keep the first version in memory for one workflow and one process. Do not implement model routing, pricing, or distributed persistence.
 

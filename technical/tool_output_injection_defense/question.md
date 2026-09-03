@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent uses a read-only web tool whose output may contain malicious instructions. Implement the TypeScript boundary that converts the raw tool response into a bounded untrusted observation and independently decides whether the model's proposed next tool call is allowed.
+An agent uses a read-only web tool whose output may contain malicious instructions. Implement the boundary in a language of your choice that converts the raw tool response into a bounded untrusted observation and independently decides whether the model's proposed next tool call is allowed.
 
 Do not attempt to detect every malicious phrase. Focus on data handling and deterministic action policy.
 

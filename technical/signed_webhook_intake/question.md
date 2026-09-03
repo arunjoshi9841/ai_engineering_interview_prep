@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An enterprise integration sends webhook events that may trigger agent workflows. Implement the TypeScript intake boundary that verifies the sender, rejects replays, validates the event, and suppresses duplicate delivery before handing it to a trusted enqueue function.
+An enterprise integration sends webhook events that may trigger agent workflows. Implement the intake boundary in a language of your choice that verifies the sender, rejects replays, validates the event, and suppresses duplicate delivery before handing it to a trusted enqueue function.
 
 Keep the initial state in one process. Do not build the HTTP server, durable queue, or workflow itself.
 

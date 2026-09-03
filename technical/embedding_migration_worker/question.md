@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-A retrieval service is migrating from embedding version `v1` to `v2`. Implement a TypeScript worker function that safely backfills one batch into a shadow index while both versions remain available.
+A retrieval service is migrating from embedding version `v1` to `v2`. Implement a worker function in a language of your choice that safely backfills one batch into a shadow index while both versions remain available.
 
 Do not switch production traffic or delete `v1`. Focus on idempotent batch processing and version lineage.
 

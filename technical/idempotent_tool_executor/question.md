@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent can request a tool that creates an external case. Calls can time out after the external system may already have created the case, and a client may retry the same logical request. Implement a small executor that makes retry behavior safe for one running process.
+An agent can request a tool that creates an external case. Calls can time out after the external system may already have created the case, and a client may retry the same logical request. Implement a small executor in a language of your choice that makes retry behavior safe for one running process.
 
 Do not build a database or an HTTP client. Focus on the executor's contract and the state needed to prevent duplicate handler invocations.
 
@@ -17,7 +17,7 @@ Do not build a database or an HTTP client. Focus on the executor's contract and 
 
 ## 3. Example Input / Output
 
-```ts
+```text
 const call = {
   tenantId: "acme",
   toolName: "create_case",
@@ -36,7 +36,7 @@ await executor.execute(call, createCase);
 ## 4. What the Interviewer Is Evaluating
 
 - Safe reasoning about uncertain side effects
-- Async TypeScript and concurrent-request handling
+- Asynchronous and concurrent-request handling
 - Clear result contracts for retryable versus indeterminate failures
 - Awareness of the limits of in-memory state
 

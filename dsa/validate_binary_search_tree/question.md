@@ -4,14 +4,14 @@
 
 Given a binary tree, determine whether it is a valid binary search tree. Every value in a node's left subtree must be strictly smaller, and every value in its right subtree must be strictly larger.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 
 - An empty tree is valid.
 - Duplicate values make the tree invalid.
 - The ordering rule applies to every descendant, not only direct children.
-- Values are finite JavaScript numbers.
+- Values are finite numbers in the language chosen by the candidate.
 - Do not mutate the tree.
 - Visit each node at most once.
 

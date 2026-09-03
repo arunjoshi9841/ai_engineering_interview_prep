@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent asks a model to classify a support request and propose a next action. Implement the TypeScript boundary that accepts the model's untrusted output, validates it, and returns either a safe typed decision or a structured rejection.
+An agent asks a model to classify a support request and propose a next action. Implement the boundary in a language of your choice that accepts the model's untrusted output, validates it, and returns either a safe decision or a structured rejection.
 
 Do not call a model or execute the proposed action. Focus on the boundary between probabilistic output and deterministic application code.
 
@@ -33,14 +33,14 @@ Do not call a model or execute the proposed action. Focus on the boundary betwee
 
 ## 4. What the Interviewer Is Evaluating
 
-- Runtime validation despite TypeScript's compile-time types
+- Runtime validation despite any compile-time types
 - Separation of syntax, schema, and business-policy failures
 - Fail-closed handling of model output
 - Clear, testable contracts without leaking untrusted content
 
 ## 5. Concept Questions and Interview Answers
 
-### Why is a TypeScript cast insufficient here?
+### Why is a static type cast insufficient here?
 
 **Interview answer:**
 

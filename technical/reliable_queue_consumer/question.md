@@ -4,7 +4,7 @@
 
 An agent workflow consumes requests from a queue and calls an external provisioning tool. A production incident shows that some requests disappear, while others create duplicate provisions and repeatedly consume worker capacity. Review the consumer below, identify the failure modes, and describe the smallest safe changes you would make first.
 
-```ts
+```text
 interface Message<T> {
   id: string;
   body: T;

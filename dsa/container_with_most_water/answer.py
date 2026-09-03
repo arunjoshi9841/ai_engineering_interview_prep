@@ -1,4 +1,18 @@
-"""Python interface matching the TypeScript contract in question.md."""
-
 def maxContainerArea(heights: list[int]) -> int:
-    raise NotImplementedError("Implement the contract documented in question.md")
+    left = 0
+    right = len(heights) - 1
+    best_area = 0
+
+    while left < right:
+        height = min(heights[left], heights[right])
+        width = right - left
+        area = height * width
+
+        best_area = max(area, best_area)
+
+        if heights[left] <= heights[right]:
+            left += 1
+        else:
+            right -= 1
+
+    return best_area

@@ -4,7 +4,7 @@
 
 Given a string containing delimiters and other text, determine whether `()`, `[]`, and `{}` are correctly matched and nested. Ignore non-delimiter characters.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

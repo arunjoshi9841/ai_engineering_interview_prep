@@ -4,7 +4,7 @@
 
 Given a string, return the length of its longest contiguous substring containing no repeated Unicode code points.
 
-Implement the function in TypeScript in linear time using code-point positions.
+Implement the function in a language of your choice in linear time using code-point positions.
 
 ## 2. Requirements
 

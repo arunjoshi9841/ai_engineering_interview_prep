@@ -4,7 +4,7 @@
 
 Given meeting intervals, return the minimum number of rooms needed so every meeting can occur. Meetings use half-open intervals `[start, end)`, so one may begin when another ends.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

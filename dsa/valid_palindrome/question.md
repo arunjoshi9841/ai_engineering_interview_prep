@@ -4,7 +4,7 @@
 
 Given a string, determine whether its ASCII letters and digits form a palindrome when punctuation and spaces are ignored and letters are compared case-insensitively.
 
-Implement the function in TypeScript without building a normalized copy of the entire string.
+Implement the function in a language of your choice without building a normalized copy of the entire string.
 
 ## 2. Requirements
 

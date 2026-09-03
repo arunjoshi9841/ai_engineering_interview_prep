@@ -2,7 +2,7 @@
 
 ## 1. Interview Prompt
 
-An agent proposes arguments for a privileged `suspend_user` tool. A staging test showed that a request containing `"approved": "false"` executed, and another request selected a tenant supplied by the model. Diagnose the provided TypeScript boundary, identify the unsafe assumptions, and describe a concrete correction and test plan.
+An agent proposes arguments for a privileged `suspend_user` tool. A staging test showed that a request containing `"approved": "false"` executed, and another request selected a tenant supplied by the model. Diagnose the provided boundary, identify the unsafe assumptions, and describe a concrete correction and test plan.
 
 Do not redesign the complete tool platform. Focus on runtime argument handling and the boundary between model data and trusted execution context.
 
@@ -11,7 +11,7 @@ Do not redesign the complete tool platform. Focus on runtime argument handling a
 Your diagnosis should:
 
 - Identify which fields are model-proposed and which must come only from authenticated or approval context.
-- Explain how JavaScript coercion and permissive parsing change the meaning of inputs.
+- Explain how implicit type coercion and permissive parsing can change the meaning of inputs.
 - Identify malformed, extra, and ambiguous values that the code accepts.
 - Define a strict external argument contract for the tool.
 - Keep authorization and approval checks separate from schema validation.
@@ -20,7 +20,7 @@ Your diagnosis should:
 
 ## 3. Provided Code
 
-```ts
+```text
 interface TrustedContext {
   tenantId: string;
   approvalGranted: boolean;

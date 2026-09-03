@@ -4,7 +4,7 @@
 
 Given an unsorted array of integers, return the length of the longest run of consecutive values. Values in a run differ by exactly one; their positions in the input do not need to be adjacent.
 
-Implement the function in TypeScript in expected linear time.
+Implement the function in a language of your choice in expected linear time.
 
 ## 2. Requirements
 
@@ -13,7 +13,7 @@ Implement the function in TypeScript in expected linear time.
 - Negative values are allowed.
 - Do not sort or modify the input.
 - Aim for expected `O(n)` time and `O(n)` additional space.
-- Assume values remain within JavaScript's safe integer range and do not include the range endpoints.
+- Assume values remain within the language's exact-integer range and do not include the range endpoints.
 
 ## 3. Example Input / Output
 

@@ -4,7 +4,7 @@
 
 Given a rectangular grid containing land (`"1"`) and water (`"0"`), return the number of connected land regions. Land cells connect only through shared horizontal or vertical edges.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 

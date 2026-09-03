@@ -4,11 +4,11 @@
 
 A worker processes one job at a time. During an hour it can process up to `capacity` units from the current job, and any unused capacity that hour cannot be applied to another job. Given positive job sizes and a deadline in hours, return the smallest positive integer capacity that finishes all jobs by the deadline.
 
-Implement the function in TypeScript.
+Implement the function in a language of your choice.
 
 ## 2. Requirements
 
-- Job sizes are positive safe integers.
+- Job sizes are positive integers within the language's exact-integer range.
 - `hours` is at least the number of jobs.
 - A job of size `work` takes `ceil(work / capacity)` hours.
 - Jobs may be processed in any order, but only one job is active in an hour.

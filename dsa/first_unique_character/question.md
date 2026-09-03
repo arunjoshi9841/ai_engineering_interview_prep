@@ -4,7 +4,7 @@
 
 Given a string, return the zero-based position of the first Unicode code point that occurs exactly once. Return `-1` when no such code point exists.
 
-Implement the function in TypeScript and preserve the original order.
+Implement the function in a language of your choice and preserve the original order.
 
 ## 2. Requirements
 
@@ -27,17 +27,17 @@ Implement the function in TypeScript and preserve the original order.
 ## 4. What the Interviewer Is Evaluating
 
 - Counting followed by order-preserving selection
-- Awareness of JavaScript string iteration semantics
+- Awareness of the chosen language's string iteration semantics
 - Clear index contract
 - Complexity and edge-case reasoning
 
 ## 5. Concept Questions and Interview Answers
 
-### Why is JavaScript string indexing important here?
+### Why is string indexing important here?
 
 **Interview answer:**
 
-> Numeric indexing addresses UTF-16 code units, so some code points occupy two positions. The implementation must use an iteration and index convention that matches the promised code-point contract.
+> Different languages expose strings as bytes, code units, or code points. The implementation must use an iteration and index convention that matches the promised code-point contract.
 
 ### Why might normalization complicate returned indices?
 
