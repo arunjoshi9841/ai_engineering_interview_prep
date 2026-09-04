@@ -1,5 +1,3 @@
-"""Python interface matching the TypeScript contract in question.md."""
-
 from dataclasses import dataclass
 from collections import deque
 

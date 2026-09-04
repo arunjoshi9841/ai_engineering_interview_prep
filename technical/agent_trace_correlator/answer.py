@@ -1,5 +1,3 @@
-"""Python interface matching the TypeScript contract in question.md."""
-
 from typing import Dict, Literal, NotRequired, TypedDict
 
 

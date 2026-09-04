@@ -1,5 +1,3 @@
-"""Python interface matching the TypeScript contract in question.md."""
-
 class MinStack:
     def push(self, value: int) -> None:
         raise NotImplementedError("Implement the contract documented in question.md")
