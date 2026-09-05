@@ -1,0 +1,5 @@
+# LLM Concepts
+Listen to the NotebookLM audio [here](https://notebook.google.com/notebook/26938b08-cddd-4155-8de9-0aeb5ece0259/artifact/30b0639d-a8ce-4b3d-a844-9ec195d590b9)
+Read in detail [here](https://newsletter.systemdesign.one/p/llm-concepts)
+
+This educational guide provides a comprehensive, jargon-free framework for understanding the internal mechanics and practical applications of Large Language Models (LLMs). The authors move systematically from foundational components like tokens and embeddings to advanced architectural strategies such as Retrieval-Augmented Generation (RAG) and Agentic AI. By demystifying how these systems function as probabilistic pattern-matchers rather than sentient databases, the text highlights critical limitations like hallucinations and knowledge cutoffs. Ultimately, the source serves as a strategic manual for users to move beyond simple prompting, offering a vocabulary to navigate alignment, fine-tuning, and performance benchmarking in a rapidly evolving field.
